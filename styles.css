@@ -1,0 +1,39 @@
+body {
+    font-family: Verana, sans-serif;
+    background-color: rgb(11, 135, 135);
+}
+
+.recipe-title,
+#main-header {
+    color:aqua;
+    background-color:rgb(11, 135, 135);
+}
+
+.recipe-card,
+#main-page {
+    width: 700px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(0, 106, 255);
+    background-color: aqua;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#main-page ul {
+    list-style: none;
+}
+
+.recipe-image img,
+#title-image img{
+    width: 400px;
+}
+
+.recipe-image,
+.recipe-title,
+#title-image,
+#main-header {
+    text-align: center;
+}
