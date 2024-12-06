@@ -1,6 +1,6 @@
 body {
     font-family: Verana, sans-serif;
-    background-color: rgb(33, 108, 108);
+    background-color: rgb(25, 91, 91);
 }
 
 .recipe-title,
@@ -16,7 +16,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-color: rgb(0, 106, 255);
-    background-color: rgb(47, 174, 174);
+    background-color: rgb(36, 141, 141);
     padding-left: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
