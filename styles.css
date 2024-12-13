@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verana, sans-serif;
     background-color: rgb(33, 108, 108);
@@ -7,19 +11,24 @@ body {
 #main-header {
     color:rgb(47, 174, 174);
     background-color:rgb(33, 108, 108);
+    width: 350px;
+    margin: 30px auto;
+}
+
+.recipe-title {
+    border: 3px dotted purple;
+    padding: 20px;
 }
 
 .recipe-card,
 #main-page {
-    width: 700px;
+    width: 730px;
     border: 2px solid;
     margin-left: auto;
     margin-right: auto;
     border-color: rgb(0, 106, 255);
     background-color: rgb(47, 174, 174);
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right: 5px;
+    padding: 5px 10px;
 }
 
 #main-page ul {
@@ -37,3 +46,49 @@ body {
 #main-header {
     text-align: center;
 }
+
+.ingredients,
+.description {
+    text-align: center;
+}
+
+.ingredients {
+    text-decoration: underline;
+}
+
+.recipe-header{
+    color: rgb(154, 69, 214);
+}
+
+#recipe-links,
+#title-image {
+    display: inline-block;
+}
+
+#recipe-links {
+    position: fixed;
+    right;
+    margin: 0px 10px 0px 0px;
+}
+
+#recipe-links li {
+    background-color: white;
+    border: 3px solid purple;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#main-page-button {
+    display: block;
+    margin: auto;
+    border: 3px solid purple;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* * {
+    outline: 2px solid red;
+} */
